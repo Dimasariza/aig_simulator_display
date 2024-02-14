@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "name": "my-nextron-app",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@react-three/drei": "^9.93.0",
+    "@react-three/fiber": "^8.15.13",
+    "@serialport/parser-readline": "^12.0.0",
+    "chart.js": "^4.4.1",
+    "d3": "^7.8.5",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "framer-motion": "^10.17.9",
+    "framer-motion-3d": "^10.17.9",
+    "leva": "^0.9.35",
+    "nodemon": "^3.0.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-gauge-chart": "^0.4.1",
+    "react-icons": "^4.12.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.3",
+    "socket.io-client": "^4.7.3",
+    "three": "^0.160.0",
+    "use-gauge": "^0.7.0"
+  },
+  "devDependencies": {
+    "electron": "^26.2.2",
+    "electron-builder": "^24.6.4",
+    "next": "^12.3.4",
+    "next-transpile-modules": "^10.0.1",
+    "nextron": "^8.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
